@@ -5,13 +5,12 @@ This is the smallest useful Python SIP integration for OpenAI Realtime. It recei
 ## Run it
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python -m venv myenv
+.\myenv\Scripts\Activate
 pip install -r requirements.txt
-copy .env.example .env
 ```
 
-Set `OPENAI_API_KEY` and `OPENAI_WEBHOOK_SECRET`, then run:
+Set `OPENAI_API_KEY` and `OPENAI_WEBHOOK_SECRET` in config.py, then run:
 
 ```powershell
 python app.py
