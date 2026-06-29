@@ -7,8 +7,8 @@ It defaults to the attached Dracula file at C:\Users\admin\Downloads\pg345.txt, 
 ## Setup
 
     pip install -r requirements.txt
-    $env:OPENAI_API_KEY = "your_api_key_here"
-
+    add your OPENAI_API_KEY to config.py
+    
 ## Run Dracula
 
 Narrate the first chunk and save it to out/dracula.wav:
@@ -42,4 +42,4 @@ Use another text-like file:
 - Project Gutenberg header and footer text are removed by default.
 - This uses the Realtime WebSocket API pattern from OpenAI's docs.
 
-Sources: Realtime guide https://platform.openai.com/docs/guides/realtime, Realtime WebSockets https://developers.openai.com/api/docs/guides/realtime-websocket, Realtime conversations https://developers.openai.com/api/docs/guides/realtime-conversations.
+
