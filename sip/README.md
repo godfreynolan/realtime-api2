@@ -6,7 +6,7 @@ This is the smallest useful Python SIP integration for OpenAI Realtime. It recei
 
 ```powershell
 python -m venv myenv
-.\myenv\Scripts\Activate
+.\myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
